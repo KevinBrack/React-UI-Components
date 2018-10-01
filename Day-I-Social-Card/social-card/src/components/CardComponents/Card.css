@@ -3,17 +3,15 @@
 }
 
 .cardContentTextBox {
-  padding-left: 20px;
+  padding-left: 200px;
 }
 
 .cardContentHeadline {
-
 }
 
 .cardContentDescription {
-
 }
 
 .cardContentLink {
-  color: grey;
+  color: pink;
 }

@@ -1,8 +1,7 @@
 .headerContainer {
-  border: 2px solid grey;
+  border: 2px solid pink;
   display: flex;
   padding: 5px;
-  
 }
 
 .avatarBox {
@@ -21,13 +20,12 @@
 }
 
 .username {
-  color: grey;
-  font-size: .8rem;
-  margin-right: .5rem;
+  color: pink;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
 }
 
 .date {
   color: grey;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-

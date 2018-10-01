@@ -1,22 +1,23 @@
-import React from 'react';
-import './Header.css';
-import ImageThumbnail from './ImageThumbnail.js';
-import HeaderContent from './HeaderContent';
-import HeaderTitle from './HeaderTitle';
+import React from "react";
+import "./Header.css";
+import ImageThumbnail from "./ImageThumbnail.js";
+import HeaderContent from "./HeaderContent";
+import HeaderTitle from "./HeaderTitle";
 
 const HeaderContainer = props => {
   return (
-    <div className='headerContainer'>
-      <div className = 'avatarBox'>
+    <div className="headerContainer">
+      <div className="avatarBox">
         <ImageThumbnail />
       </div>
-      <div className = 'textBox'>
+      <div className="textBox">
         <HeaderTitle />
         <HeaderContent />
       </div>
-    </div>  
+    </div>
   );
-}
-
+};
 
 export default HeaderContainer;
+
+// Yes how bout a comment
